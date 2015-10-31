@@ -35,6 +35,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+
+  # rspec-rails is a testing framework
+  gem 'rspec-rails', '~> 3.0'
+  # factory_girl is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies
+  gem 'factory_girl_rails', '~> 3.0'
+end
+
+group :test do
+  gem 'selenium-webdriver', '2.48.1'
+  gem 'capybara', '2.5.0'
 end
 
 group :development do
