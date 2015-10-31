@@ -40,6 +40,10 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   # factory_girl is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies
   gem 'factory_girl_rails', '~> 3.0'
+
+  # automation testing
+  gem 'guard'
+  gem 'guard-rspec'
 end
 
 group :test do
