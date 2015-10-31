@@ -44,6 +44,11 @@ group :development, :test do
   # automation testing
   gem 'guard'
   gem 'guard-rspec'
+
+  # testing speed up
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
